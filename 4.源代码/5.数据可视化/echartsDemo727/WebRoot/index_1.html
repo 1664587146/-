@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="GBK">
+    <!-- 引入 ECharts 文件 -->
+    <script src="js/echarts.js"></script>
+</head>
+
+<body>
+     <div id="main" style="width: 600px;height:400px;"></div>
+    <script type="text/javascript">
+       
+        var myChart = echarts.init(document.getElementById('main'));
+
+       
+        var option = {
+            title: {
+                text: 'ECharts 入门示例'
+            },
+            tooltip: {},
+            legend: {
+                data:['销量']
+            },
+            xAxis: {
+                data: ["2016-01","2016-02","2016-03","2016-04","2016-05","2016-06","2016-07","2016-08","2016-09"]
+            },
+            yAxis: {},
+            series: [{
+                name: '电话记录',
+                type: 'bar',
+                data: [98, 64, 103, 97, 116, 137,137,163,85]
+            }]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
+</body>
+
+
+</html>

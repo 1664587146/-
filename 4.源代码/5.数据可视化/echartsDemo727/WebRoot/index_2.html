@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/default.css"/> 
+<link rel="stylesheet" type="text/css" href="css/mobile.css"/>
+<link rel='stylesheet' href='css/jquery-ui.css'>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,maximum-scale=1.0,user-scalable=no">
+<title>全国洪涝灾害预警</title>
+</head>
+<body>
+    <div id="wrapper">
+    	<p style="font-family:Microsoft YaHei;color:white;font-size:15px;text-align:left"> <a href="/echartsDemo/index.html">...返回原页面...</a>
+        <h1>全国洪涝灾害预警  </h1>
+        
+        <h2><strong>重点关注</strong><sub>Focus on the floods</sub><b class="logoline"></b><b class="logoline1"></b><b class="logoline2"></b><b class="logoline3"></b><b class="logoline4"></b></h2>
+        <!--时间区-->
+        <div class="date-timer">
+           <p>
+               <strong id="H"></strong>
+               <strong>:</strong>
+               <strong id="M"></strong>
+               <strong id="S" class="hide"></strong>
+           </p>
+           <em id="D"></em>
+            <ul>
+                <li id="Y"></li>
+                <li id="MH"></li>
+                <li id="TD"></li>
+            </ul>
+        </div>
+        <div class="big-index-1">
+            <ul>
+                <li>
+                    <b class="animation-1"></b><b class="animation-2"></b><b class="animation-3"></b>
+                    <p>红色预警地区个数</p>
+                    <strong>15</strong>
+                </li>
+                <li>
+                    <b class="animation-1"></b><b class="animation-2"></b><b class="animation-3"></b>
+                    <p>橙色预警地区个数</p>
+                    <strong>12</strong>
+                </li>
+                <li>
+                    <b class="animation-1"></b><b class="animation-2"></b><b class="animation-3"></b>
+                    <p>黄色预警地区个数</p>
+                    <strong>34</strong>
+                </li>
+                <li>
+                    <b class="animation-1"></b><b class="animation-2"></b><b class="animation-3"></b>
+                    <p>蓝色预警地区个数</p>
+                    <strong>174</strong>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="submenu">
+            <ul>
+                
+            </ul>
+        </div>
+        <div class="center-area">
+            <div class="pandect-area">
+                <h3>
+                    <p>自2020.7.25<sub>8 points</sub></p>
+                    <strong>一周降水量排名</strong>
+                    <em>至2020.7.29</em>
+                </h3>
+                <span class="pandect-area-left">
+                    <b></b>
+                </span>
+                <div class="pandect-area-center">
+                    <img src="images/charts.png" />
+                </div>
+                <span class="pandect-area-right">
+                    <b></b>
+                </span>
+            </div>
+            <div class="details1-area">
+                
+                <span class="detailsl-area-right"></span>
+
+            </div>
+            <div class="details2-area">
+                <span class="details2-area-left"></span>
+                <div class="details2-area-center">
+                    
+                </div>
+                <span class="details2-area-right"></span>
+            </div>
+        </div>
+        <div class="right-area">
+            <h3>灾 情 概 况 <b></b></h3>
+            <div class="area-inbox-1">
+                <dl>
+                    <dt>全国受灾省份个数</dt>
+                    <dd class="font12"><span>26个</span><b></b></dd>
+                    <dt class="ml-20">全国受灾人次：</dt>
+                    <dd class="font-red ml-20"><span>1122万人次</span><b></b></dd>
+                    <dt>直接经济损失：</dt>
+                    <dd><span>241亿元</span><b></b></dd>
+                </dl>
+                <div class="round-1"></div>
+                <div class="round-2"></div>
+                <div class="round-3"></div>
+                <div class="round-4"></div>
+            </div>
+            <div class="area-inbox-2">
+                    
+                    <div class="area-text">
+                        <b class="animation-line1"></b>
+                        <h4>民众须知：</h4>
+                        <p class="text_container">
+                            <script>var s = '积极听从地区组织与安排，进行必要的防洪准备或是撤退到相对安全的地方，如防洪大坝上或是当地地势较高的地区'; var con = $('.text_container'); var index = 0; var length = s.length; var tId = null; function start(){ con.text(''); tId=setInterval(function(){ con.append(s.charAt(index)); if(index++ === length){ clearInterval(tId); index = 0; start() } },100); } start();</script>
+                        </p>
+                        <b class="animation-line2"></b>
+                    </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HistoryServlet</servlet-name>
+    <servlet-class>com.yichuanxueyuan.controller.HistoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TemperServlet</servlet-name>
+    <servlet-class>com.yichuanxueyuan.controller.TemperServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommonCityServlet</servlet-name>
+    <servlet-class>com.yichuanxueyuan.controller.CommonCityServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommonCity</servlet-name>
+    <servlet-class>com.yichuanxueyuan.controller.CommonCity</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommonCity_temp_top_Servlet</servlet-name>
+    <servlet-class>com.yichuanxueyuan.controller.CommonCity_temp_top_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>City_Quality_Servlet</servlet-name>
+    <servlet-class>com.yichuanxueyuan.controller.City_Quality_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>City_Rain_Servlet</servlet-name>
+    <servlet-class>com.yichuanxueyuan.controller.City_Rain_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StartCity_Weather_Servlet</servlet-name>
+    <servlet-class>com.yichuanxueyuan.controller.StartCity_Weather_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StarCity_Rain_Servlet</servlet-name>
+    <servlet-class>com.yichuanxueyuan.controller.StarCity_Rain_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StarCity_Temp_TopAndLow_Servlet</servlet-name>
+    <servlet-class>com.yichuanxueyuan.controller.StarCity_Temp_TopAndLow_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Map_serlet</servlet-name>
+    <servlet-class>com.yichuanxueyuan.controller.Map_serlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Map_Servlet</servlet-name>
+    <servlet-class>com.yichuanxueyuan.controller.Map_Servlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>HistoryServlet</servlet-name>
+    <url-pattern>/history</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TemperServlet</servlet-name>
+    <url-pattern>/temperServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommonCity</servlet-name>
+    <url-pattern>/commonCity</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommonCity_temp_top_Servlet</servlet-name>
+    <url-pattern>/commonCity_temp_top_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>City_Quality_Servlet</servlet-name>
+    <url-pattern>/city_Quality_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>City_Rain_Servlet</servlet-name>
+    <url-pattern>/city_Rain_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StartCity_Weather_Servlet</servlet-name>
+    <url-pattern>/startCity_Weather_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StarCity_Rain_Servlet</servlet-name>
+    <url-pattern>/starCity_Rain_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StarCity_Temp_TopAndLow_Servlet</servlet-name>
+    <url-pattern>/starCity_Temp_TopAndLow_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Map_serlet</servlet-name>
+    <url-pattern>/map_serlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Map_Servlet</servlet-name>
+    <url-pattern>/map_Servlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

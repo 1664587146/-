@@ -1,0 +1,40 @@
+10
+
+dir
+2110
+svn://182.92.149.199/jdwx/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB/%E6%B1%BD%E8%BD%A6%E8%AF%84%E8%AE%BA%E7%88%AC%E5%8F%96/%E6%BA%90%E7%A0%81/cars/WebRoot/static
+svn://182.92.149.199
+
+
+
+2016-05-03T02:50:21.198328Z
+1666
+my
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+479613d7-1867-4b04-82c7-17e0ed38e1c2
+
+css
+dir
+
+fonts
+dir
+
+images
+dir
+
+js
+dir
+
