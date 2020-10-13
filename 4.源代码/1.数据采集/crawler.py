@@ -14,7 +14,7 @@ def getJsonAndData(url):
     res = requests.get(url)
     myJson = json.loads(res.text)
     dic_data = myJson["result"]
-    data = dic_data["result"]
+    data = dic_data["result"]//这个函数下面根据数据集结构改
     air = data["aqi"] 
     quality = air['quality'] 
     weather = data["daily"]
@@ -41,7 +41,7 @@ def getAll(app):
                 break
             else:
                 #print(area)
-                url = 'https://way.jd.com/jisuapi/weather?city=' + area[:-1] + '&cityid=&citycode=&appkey=20c931613e09417b1dbd4217d1011dc4'
+                url = 'https://way.jd.com/jisuapi/weather?city=' + area[:-1] + '&cityid=&citycode=&appkey=20c931613e09417b1dbd4217d1011dc4'//改成你要爬的url
                 res = getJsonAndData(url)
                 print(res)
                 f2.write(res)
